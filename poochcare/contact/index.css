@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clear{
+    clear: both;
+}
+header{
+    padding-top: 100px;
+    /* background-color: rgb(172, 106, 106); */
+    color: rgb(0, 0, 0);
+}
+header .container{
+    padding: 20px 0px;
+    width: 60%;
+    background-color: green;
+    margin: auto;
+    color: white;
+    
+}
+header .container .content{
+    display: flex;
+}
+header .container .content .content-left{
+    width: 50%;
+}
+header .container .content .content-left h3{
+    font-size: 35px;
+}
+header .container .content .content-right{
+    width: 50%;
+}
+header .container .content .content-right ul{
+    align-items: center;
+    justify-items: center;
+}
+header .container .content .content-right ul li{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+header .container .content .content-right ul li a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
